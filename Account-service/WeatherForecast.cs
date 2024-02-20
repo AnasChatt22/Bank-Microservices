@@ -1,4 +1,4 @@
-namespace Account_service
+namespace account_service
 {
     public class WeatherForecast
     {

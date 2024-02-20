@@ -1,6 +1,6 @@
-@Customer_service_HostAddress = http://localhost:5009
+@customer_service_HostAddress = http://localhost:5165
 
-GET {{Customer_service_HostAddress}}/weatherforecast/
+GET {{customer_service_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

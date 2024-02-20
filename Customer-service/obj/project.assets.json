@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Customer-service\\Customer-service.csproj",
-      "projectName": "Customer-service",
-      "projectPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Customer-service\\Customer-service.csproj",
+      "projectUniqueName": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\customer-service\\customer-service.csproj",
+      "projectName": "customer-service",
+      "projectPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\customer-service\\customer-service.csproj",
       "packagesPath": "C:\\Users\\AnasChatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Customer-service\\obj\\",
+      "outputPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\customer-service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AnasChatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
