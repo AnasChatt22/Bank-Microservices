@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Account-service\\Account-service.csproj": {}
+    "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Account-service\\Account-service.csproj": {
+    "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Account-service\\Account-service.csproj",
-        "projectName": "Account-service",
-        "projectPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Account-service\\Account-service.csproj",
+        "projectUniqueName": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj",
+        "projectName": "account-service",
+        "projectPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj",
         "packagesPath": "C:\\Users\\AnasChatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\Account-service\\obj\\",
+        "outputPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AnasChatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
