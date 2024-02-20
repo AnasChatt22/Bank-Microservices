@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D3B078EC-309E-4CD4-91C2-96CB8BB68DF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "account-service", "account-service\account-service.csproj", "{AFF7C8E7-9AD9-4530-B932-F42B90A134E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "account-service", "account-service\account-service.csproj", "{AFF7C8E7-9AD9-4530-B932-F42B90A134E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customer-service", "customer-service\customer-service.csproj", "{2BB71C25-F99D-4351-B22F-AC9DD9A9C6A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "customer-service", "customer-service\customer-service.csproj", "{2BB71C25-F99D-4351-B22F-AC9DD9A9C6A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

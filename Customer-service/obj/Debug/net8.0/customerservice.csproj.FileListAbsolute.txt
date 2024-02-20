@@ -1,0 +1,8 @@
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.csproj.AssemblyReference.cache
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.AssemblyInfoInputs.cache
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.AssemblyInfo.cs
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.csproj.CoreCompileInputs.cache
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AnasChatt\Desktop\Bank-Microservices\customer-service\obj\Debug\net8.0\customerservice.sourcelink.json
