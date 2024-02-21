@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj": {}
+    "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj": {
+    "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj",
+        "projectUniqueName": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj",
         "projectName": "account-service",
-        "projectPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\account-service.csproj",
-        "packagesPath": "C:\\Users\\AnasChatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AnasChatt\\Desktop\\Bank-Microservices\\account-service\\obj\\",
+        "projectPath": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj",
+        "packagesPath": "C:\\Users\\Hp Victus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AnasChatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp Victus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,42 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Steeltoe.Discovery.Eureka": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            },
+            "Steeltoe.Discovery.EurekaBase": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -64,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

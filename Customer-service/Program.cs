@@ -2,6 +2,7 @@ using customer_service.Data;
 using customer_service.Interfaces;
 using customer_service.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Steeltoe.Discovery.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,7 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDiscoveryClient();
 
 var app = builder.Build();
 
