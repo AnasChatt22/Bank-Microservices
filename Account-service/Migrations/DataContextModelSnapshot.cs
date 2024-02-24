@@ -55,7 +55,7 @@ namespace account_service.Migrations
                             accountId = "A1",
                             accountType = "CURRENT_ACCOUNT",
                             balance = 12.0,
-                            createdAt = new DateTime(2024, 2, 21, 17, 10, 44, 556, DateTimeKind.Utc).AddTicks(4165),
+                            createdAt = new DateTime(2024, 2, 24, 16, 30, 32, 30, DateTimeKind.Utc).AddTicks(593),
                             currency = "DHs",
                             customerId = 1L
                         },
@@ -64,7 +64,7 @@ namespace account_service.Migrations
                             accountId = "A2",
                             accountType = "SAVING_ACCOUNT",
                             balance = 14.0,
-                            createdAt = new DateTime(2024, 2, 21, 17, 10, 44, 556, DateTimeKind.Utc).AddTicks(4247),
+                            createdAt = new DateTime(2024, 2, 24, 16, 30, 32, 30, DateTimeKind.Utc).AddTicks(634),
                             currency = "Dollar",
                             customerId = 2L
                         });

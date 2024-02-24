@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace account_service.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class initialaccounts : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,8 +34,8 @@ namespace account_service.Migrations
                 columns: new[] { "accountId", "accountType", "balance", "createdAt", "currency", "customerId" },
                 values: new object[,]
                 {
-                    { "A1", "CURRENT_ACCOUNT", 12.0, new DateTime(2024, 2, 21, 17, 10, 44, 556, DateTimeKind.Utc).AddTicks(4165), "DHs", 1L },
-                    { "A2", "SAVING_ACCOUNT", 14.0, new DateTime(2024, 2, 21, 17, 10, 44, 556, DateTimeKind.Utc).AddTicks(4247), "Dollar", 2L }
+                    { "A1", "CURRENT_ACCOUNT", 12.0, new DateTime(2024, 2, 24, 16, 30, 32, 30, DateTimeKind.Utc).AddTicks(593), "DHs", 1L },
+                    { "A2", "SAVING_ACCOUNT", 14.0, new DateTime(2024, 2, 24, 16, 30, 32, 30, DateTimeKind.Utc).AddTicks(634), "Dollar", 2L }
                 });
         }
 

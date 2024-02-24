@@ -1,6 +1,7 @@
 ﻿using account_service.Interfaces;
 using account_service.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Net.Http;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -57,6 +58,23 @@ namespace account_service.Controllers
             }
             return Ok(account);
         }
+
+        [HttpGet("byCustomer/{id}")]
+        public IActionResult GetAccountsByCustomer(long id)
+        {
+            var accounts = _accountRepository.GetAccountsByCustomer(id);
+            if (accounts.Count == 0)
+            {
+                return NotFound($"No accounts found for customer with ID {id}");
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            return Ok(accounts);
+        }
+
 
     }
 }

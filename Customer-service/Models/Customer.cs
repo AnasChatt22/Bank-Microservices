@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
 namespace customer_service.Models
 {
     public class Customer
@@ -14,5 +15,7 @@ namespace customer_service.Models
         public string lastname { get; set; }
         [Required]
         public string email { get; set; }
+        [NotMapped]
+        public List<AccountDto> accounts { get; set; }
     }
 }

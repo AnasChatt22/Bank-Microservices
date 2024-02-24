@@ -1,3 +1,5 @@
+using AutoMapper;
+using customer_service;
 using customer_service.Data;
 using customer_service.Interfaces;
 using customer_service.Repositories;
@@ -15,10 +17,16 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
+builder.Services.AddHttpContextAccessor();
+var link = builder.Configuration.GetSection("ServiceUrls").GetSection("AccountApi").Value;
+builder.Services.AddHttpClient("Account", u => u.BaseAddress = new Uri(link));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDiscoveryClient();
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

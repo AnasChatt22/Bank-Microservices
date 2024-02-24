@@ -4,8 +4,8 @@ namespace customer_service.Interfaces
 {
     public interface ICustomerRepository
     {
-        List<Customer> GetCustomers();
-        Customer GetCustomer(long id);
+        Task<List<Customer>> GetCustomersWithAccounts();
+        Task<Customer> GetCustomer(long id);
         bool IsCustomerExists(long id);
 
     }

@@ -18,9 +18,9 @@ namespace customer_service.Controllers
 
         // GET: api/Customers
         [HttpGet]
-        public IActionResult GetCustomers()
+        public async Task<IActionResult> GetCustomers()
         {
-            var customers = _customerRepository.GetCustomers();
+            var customers = await _customerRepository.GetCustomersWithAccounts();
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
@@ -29,18 +29,18 @@ namespace customer_service.Controllers
 
         // GET api/Customers/id
         [HttpGet("{id}")]
-        public IActionResult GetCustomerByID(long id)
+        public async Task<IActionResult> GetCustomerByID(long id)
         {
             if (!_customerRepository.IsCustomerExists(id))
                 return NotFound();
 
-            var customer = _customerRepository.GetCustomer(id);
+            var customer = await _customerRepository.GetCustomer(id);
 
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+            if (customer == null)
+                return NotFound();
 
             return Ok(customer);
         }
-        
+
     }
 }

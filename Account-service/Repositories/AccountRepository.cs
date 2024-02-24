@@ -26,5 +26,10 @@ namespace account_service.Repositories
         {
             return _context.Accounts.Any(acc => acc.accountId == id);
         }
+
+        public List<Account> GetAccountsByCustomer(long  id)
+        {
+            return _context.Accounts.Where(acc => acc.customerId == id).ToList();
+        }
     }
 }

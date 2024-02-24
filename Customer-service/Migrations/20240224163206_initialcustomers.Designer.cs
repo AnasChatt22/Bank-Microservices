@@ -11,8 +11,8 @@ using customer_service.Data;
 namespace customer_service.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240220180002_initial")]
-    partial class initial
+    [Migration("20240224163206_initialcustomers")]
+    partial class initialcustomers
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

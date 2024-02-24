@@ -7,5 +7,6 @@ namespace account_service.Interfaces
         List<Account> GetAccounts();
         Account GetAccount(string id);
         bool IsAccountExists(string id);
+        List<Account> GetAccountsByCustomer(long id);
     }
 }
