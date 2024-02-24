@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace customer_service.Models
+namespace account_service.Models
 {
     public class AccountDto
     {

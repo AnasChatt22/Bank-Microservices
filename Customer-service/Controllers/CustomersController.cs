@@ -1,9 +1,9 @@
-﻿using customer_service.Interfaces;
+﻿using account_service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace customer_service.Controllers
+namespace account_service.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

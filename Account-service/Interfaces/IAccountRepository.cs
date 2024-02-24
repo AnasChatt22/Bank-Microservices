@@ -4,9 +4,9 @@ namespace account_service.Interfaces
 {
     public interface IAccountRepository
     {
-        List<Account> GetAccounts();
-        Account GetAccount(string id);
+        Task<List<AccountDto>> GetAccounts();
+        Task<AccountDto> GetAccount(string id);
         bool IsAccountExists(string id);
-        List<Account> GetAccountsByCustomer(long id);
+        Task<List<AccountDto>> GetAccountsByCustomer(long id);
     }
 }

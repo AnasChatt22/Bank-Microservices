@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K2nyTMulwdjdOczkiG8UXq9DdWbhr0ARgJR8aI0XJp0=",
+  "Hash": "gpituzFCFNYSuplGQgfv9S/w3bYhZdaKm2XHdrNHx0c=",
   "Source": "account-service",
   "BasePath": "_content/account-service",
   "Mode": "Default",
@@ -9,10 +9,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "C:\\Users\\AnasChatt\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\Hp Victus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\AnasChatt\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Hp Victus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -25,13 +25,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\AnasChatt\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Hp Victus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\AnasChatt\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\Hp Victus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\AnasChatt\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Hp Victus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -44,13 +44,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\AnasChatt\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Hp Victus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\obj\\Debug\\net8.0\\scopedcss\\bundle\\account-service.styles.css",
+      "Identity": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\obj\\Debug\\net8.0\\scopedcss\\bundle\\account-service.styles.css",
       "SourceId": "account-service",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/account-service",
       "RelativePath": "account-service.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\obj\\Debug\\net8.0\\scopedcss\\bundle\\account-service.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\obj\\Debug\\net8.0\\scopedcss\\bundle\\account-service.styles.css"
     }
   ]
 }

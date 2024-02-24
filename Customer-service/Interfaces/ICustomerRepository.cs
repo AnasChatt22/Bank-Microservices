@@ -1,6 +1,6 @@
-﻿using customer_service.Models;
+﻿using account_service.Models;
 
-namespace customer_service.Interfaces
+namespace account_service.Interfaces
 {
     public interface ICustomerRepository
     {

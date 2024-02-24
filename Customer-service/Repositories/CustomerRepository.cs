@@ -1,10 +1,10 @@
-﻿using customer_service.Data;
-using customer_service.Interfaces;
-using customer_service.Models;
+﻿using account_service.Data;
+using account_service.Interfaces;
+using account_service.Models;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-namespace customer_service.Repositories
+namespace account_service.Repositories
 {
     public class CustomerRepository : ICustomerRepository
     {

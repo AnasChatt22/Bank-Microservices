@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace customer_service.Migrations
+namespace account_service.Migrations
 {
     /// <inheritdoc />
     public partial class initialcustomers : Migration

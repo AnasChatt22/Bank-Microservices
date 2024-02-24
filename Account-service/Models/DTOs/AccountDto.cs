@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace account_service.Models
 {
-    public class Account
+    public class AccountDto
     {
         public string accountId { get; set; }
         public double balance { get; set; }
@@ -11,6 +11,5 @@ namespace account_service.Models
         public string currency { get; set; }
         public string accountType { get; set; }
         public Customer customer { get; set; }
-        public long customerId { get; set; }
     }
 }

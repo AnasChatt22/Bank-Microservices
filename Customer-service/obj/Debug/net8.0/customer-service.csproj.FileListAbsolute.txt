@@ -438,3 +438,4 @@ C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\customer-service\obj\Debug\ne
 C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\customer-service\obj\Debug\net8.0\customer-service.genruntimeconfig.cache
 C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\customer-service\obj\Debug\net8.0\ref\customer-service.dll
 C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\customer-service\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Hp Victus\Documents\GitHub\Bank-Microservices\customer-service\bin\Debug\net8.0\AutoMapper.dll

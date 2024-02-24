@@ -1,8 +1,8 @@
 using AutoMapper;
-using customer_service;
-using customer_service.Data;
-using customer_service.Interfaces;
-using customer_service.Repositories;
+using account_service;
+using account_service.Data;
+using account_service.Interfaces;
+using account_service.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Steeltoe.Discovery.Client;
 

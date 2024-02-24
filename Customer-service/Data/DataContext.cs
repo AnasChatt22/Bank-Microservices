@@ -1,7 +1,7 @@
-﻿using customer_service.Models;
+﻿using account_service.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace customer_service.Data
+namespace account_service.Data
 {
     public class DataContext : DbContext
     {

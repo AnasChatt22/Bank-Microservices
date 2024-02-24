@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\account-service.csproj": {}
+    "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\account-service.csproj": {
+    "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\account-service.csproj",
+        "projectUniqueName": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj",
         "projectName": "account-service",
-        "projectPath": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\account-service.csproj",
-        "packagesPath": "C:\\Users\\AnasChatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\account-service\\obj\\",
+        "projectPath": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\account-service.csproj",
+        "packagesPath": "C:\\Users\\Hp Victus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\account-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AnasChatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp Victus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -100,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
