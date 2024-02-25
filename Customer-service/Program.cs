@@ -5,6 +5,7 @@ using account_service.Interfaces;
 using account_service.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Steeltoe.Discovery.Client;
+using Steeltoe.Common.Http.Discovery;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,13 +18,14 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
+builder.Services.AddDiscoveryClient();
 builder.Services.AddHttpContextAccessor();
-var link = builder.Configuration.GetSection("ServiceUrls").GetSection("AccountApi").Value;
-builder.Services.AddHttpClient("Account", u => u.BaseAddress = new Uri(link));
+builder.Services.AddHttpClient("Account", client => client.BaseAddress = new Uri("http://account-service")).AddServiceDiscovery();
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDiscoveryClient();
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
