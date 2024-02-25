@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\customer-service\\customer-service.csproj": {}
+    "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\customer-service\\customer-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\customer-service\\customer-service.csproj": {
+    "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\customer-service\\customer-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\customer-service\\customer-service.csproj",
+        "projectUniqueName": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\customer-service\\customer-service.csproj",
         "projectName": "customer-service",
-        "projectPath": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\customer-service\\customer-service.csproj",
-        "packagesPath": "C:\\Users\\Hp Victus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp Victus\\Documents\\GitHub\\Bank-Microservices\\customer-service\\obj\\",
+        "projectPath": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\customer-service\\customer-service.csproj",
+        "packagesPath": "C:\\Users\\AnasChatt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AnasChatt\\Desktop\\.NET\\Bank-Microservices\\customer-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hp Victus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnasChatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

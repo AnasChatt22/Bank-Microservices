@@ -582,3 +582,4 @@ C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\account-service\obj\Debug\net
 C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\account-service\obj\Debug\net8.0\account-service.genruntimeconfig.cache
 C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\account-service\obj\Debug\net8.0\ref\account-service.dll
 C:\Users\Hp Victus\Documents\GitHub\Bank-Microservices\account-service\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\AnasChatt\Desktop\.NET\Bank-Microservices\account-service\bin\Debug\net8.0\AutoMapper.dll

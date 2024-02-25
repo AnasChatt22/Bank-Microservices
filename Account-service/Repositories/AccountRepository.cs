@@ -76,7 +76,7 @@ namespace account_service.Repositories
             if (accounts == null)
                 return null;
 
-            foreach(var account in accounts)
+            /*foreach(var account in accounts)
             {
                 var httpClient = _httpClientFactory.CreateClient("Customer");
                 var response = await httpClient.GetAsync($"api/Customers/{account.customerId}");
@@ -87,7 +87,7 @@ namespace account_service.Repositories
                     var customer = JsonConvert.DeserializeObject<Customer>(content);
                     account.customer = customer;
                 }
-            }
+            }*/
             
             var accountsDto = _mapper.Map<List<AccountDto>>(accounts);
 
